@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Thông tin sinh viên</title>
+</head>
+<body class="bg-dark">
+
+
+<div class="">
+    <div class="d-flex">
+        <div class="left" style="width: 20%;">
+            <p class="text-center logo">LOGO</p>
+            <ul class="list-unstyled">
+                <li><a href="QLSV.html">Trang chủ</a></li>
+                
+            </ul>
+        </div>
+        <div style="width: 80%;" class="bg-light px-4 py-3">
+            <h2 class="mb-3">Quản lý lớp học </h2>
+            <p class="lead">&bull;  Thông tin sinh viên có trong lớp Học.</p>
+            <a href="QLSV.html" class="btn btn-secondary mb-4" id="backHome">Quay lại</a>
+            <form>
+                
+                <div class="form-group">
+                    <label> Tên lớp học </label>
+                    <input id="ten" type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label> SĐT</label>
+                    <input id="phone" type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input id="email" type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>gvcn</label>
+                    <input id="gvcn" type="text" class="form-control">
+                </div>
+                
+                <p id="error"> (*) Vui lòng điền vào ô màu đỏ !!! </p>
+
+                <button type="button" class="btn btn-primary mt-3"  id="submit">Thêm</button>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/qllh.js"></script>
+</body> 
+</html>

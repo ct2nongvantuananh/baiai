@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title> Thông tin sinh Viên</title>
+</head>
+
+<body class="bg-dark">
+
+    <div class="">
+        <div class="d-flex">
+            <div class="left" style="width: 20%;">
+                <p class="text-center logo">LOGO</p>
+                <ul class="list-unstyled">
+                    <li><a href="QLSV.html">Trang chủ</a></li>
+                    <li class="active"><a href="QLSV.html"> Danh Sách Sinh Viên</a></li>
+                    <li class="active"><a href="QLSV.html"> Danh sách Lớp Học</a></li>
+                </ul> 
+
+            </div>
+            
+            <div style="width: 80%" class="bg-light px-4 py-3">
+                <h2 class="mb-3">Quản lý sinh viên</h2>
+                
+                <a href="QL.html" class="btn btn-secondary mb-4">Thêm Sinh Viên</a>
+                
+                <a href="qllh.html" class="btn btn-secondary mb-4">Thêm lớp học </a>
+
+                <a href="QLSV.html" class="btn btn-secondary d-none" id="backHome"></a>
+
+                <table id="tablesv">
+                    <thead>
+                        <tr>
+                            <th class="rong">STT</th>
+                            <th class="rong">Họ Và Tên</th>
+                            <th class="rong">Năm Sinh</th>
+                            <th class="rong">Email</th>
+                            <th class="rong">Tính năng</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <td style="text-align: center;" colspan="8"><img style="height: 100px" src="image/LLyJ.gif" alt="">
+                        </td>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/qlsv.js"></script>
+</body>
+
+</html>

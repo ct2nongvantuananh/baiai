@@ -1,0 +1,42 @@
+.list-unstyled li{
+    background: rgb(15, 141, 224);
+}
+
+.left {
+    min-height: 100vh;
+    border-right: 2px solid black;
+    background: #f7f4f4 ;
+}
+
+.left li.active{
+    background-color: rgb(169, 203, 241);
+}
+
+.list-unstyled li a{
+    padding: 12px;
+    font-size: 16px;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    border-bottom: 2px solid black;
+}
+
+.logo{
+    padding: 10px 0;
+    font-size: 25px;
+    background:rgb(167, 125, 125);
+    color:rgb(10, 10, 10);
+    margin-bottom: 0;
+}
+
+.mau :hover {
+    background-color: rgb(69, 241, 83);
+}
+#error{
+    display: none;
+    color: rgb(228, 40, 40);
+}
+.rong{
+    width: 20%;
+}
